@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
