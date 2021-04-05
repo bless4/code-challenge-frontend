@@ -35,7 +35,7 @@ May be CSSinJS, but not a requirement (JSS, styled-component)
 | Redux-Thunk                 |    Use as a middleware to deal with async & let you call
  the actions creators that return a function instead of an object.
  The function received a store dispatch        |
-| Redux                |     A predictable state container design to be used in Javascript apps that behave consistently.In a nutshell words it is state management       |
+|Redux               |            A predictable state container design to be used in Javascript apps that behave consistently.In a nutshell words it is state management                    |
 
 ##  Solution for the requirements
 App  Structure
