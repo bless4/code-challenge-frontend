@@ -28,14 +28,15 @@ May be CSSinJS, but not a requirement (JSS, styled-component)
 | Material UI Core         |      Loading spinner and modal component      |
 | axios                    |              Makes HTTP requests              |
 | Prettier                 |              Code styling                     |
+|Redux               |            A predictable state container design to be used in Javascript apps that behave consistently.In a nutshell words it is state management            |
 | JavaScript-Time-Ago | Localized relative date/time formatting (pass & future dates)            |
-| React-redux                 |  React components read data from the redux store, and 
-                               dispatch actions to the store      |
+| React-redux                 |  React components read data from the redux store, and  dispatch actions to the store      |
+                              
  |   React-resoponsive-masonry     | A lightweight responsive that helps to change the number of columns in my layout         |
 | Redux-Thunk                 |    Use as a middleware to deal with async & let you call
  the actions creators that return a function instead of an object.
  The function received a store dispatch        |
-|Redux               |            A predictable state container design to be used in Javascript apps that behave consistently.In a nutshell words it is state management                    |
+
 
 ##  Solution for the requirements
 App  Structure
