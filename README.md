@@ -33,7 +33,6 @@ May be CSSinJS, but not a requirement (JSS, styled-component)
 | React-redux                 |  React components read data from the redux store, and  dispatch actions to the store      |
 |   React-resoponsive-masonry     | A lightweight responsive that helps
  to change the number of columns in my layout                        |   
- 
 | Redux-Thunk                 |    Use as a middleware to deal with async & let you call  the actions creators that return a function instead of an object.
 The function received a store dispatch        |
 
