@@ -33,9 +33,9 @@ May be CSSinJS, but not a requirement (JSS, styled-component)
 | React-redux                 |  React components read data from the redux store, and  dispatch actions to the store      |
                               
  |   React-resoponsive-masonry     | A lightweight responsive that helps to change the number of columns in my layout         |
-| Redux-Thunk                 |    Use as a middleware to deal with async & let you call
- the actions creators that return a function instead of an object.
- The function received a store dispatch        |
+| Redux-Thunk                 |    Use as a middleware to deal with async & let you call  the actions creators that return a function instead of an object. The function received a store dispatch        |
+
+ 
 
 
 ##  Solution for the requirements
@@ -61,6 +61,11 @@ App  Structure
          * image.js
          * index.js
          * modal.js
+    * test
+       * action.test.js
+       * app.test.js
+       * gridWithImage.test.js
+       * reducer.test.js
      * App.css
      * App:js
      * index.css
@@ -114,8 +119,7 @@ The first rule of writing testable code is to write small functions that do only
 
 
 ## Testing
-Todo
-Logo
+Four test suites were created which all passed, and it has a total of 21 tests.  Jest is the principal JavaScript test library that is used to create the test cases with the help of additional packages such as Redux-Mock-Store (for testing redux async ), Fetch Mock-adapter , Fetch Mock, and axios-mock-adapter.
 
 
      
