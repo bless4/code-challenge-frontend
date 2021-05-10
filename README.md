@@ -37,10 +37,10 @@ May be CSSinJS, but not a requirement (JSS, styled-component)
 
 
 
-## Unsplash Api
+## Unsplash Api.
 
 I registered for the unsplash.com website using a developer account in order for me to get access to the Access Keys, Secret and other developers resources .
-=======
+
 
 
 
