@@ -92,7 +92,7 @@ App  Structure
          
 ## Unsplash Api       
 I registered for the unsplash.com website using a developer account in order for me to get access to the Access Keys, Secret  and other developers resources .   
->>>>>>> 3518e2714ee3698f4e44515076a832b70889f997
+
 
 ## Api GET Request
 
