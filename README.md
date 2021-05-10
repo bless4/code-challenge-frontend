@@ -35,47 +35,7 @@ May be CSSinJS, but not a requirement (JSS, styled-component)
 
 ## Solution for the requirements
 
-App Structure
 
--   public
--   Src
-    -   actions
-        -   image.js
-        -   modal.js
-        -   components
-            -   Header
-                -   Header.css
-                -   index.js
-            -   Image
-                -   image..js
-            -   ImageGrid
-                -   index.js
-            -   ImageInfo
-                -   index.js
-            -   ImageModal
-                -   index.js
-    -   reducers
-        -   image.js
-        -   index.js
-        -   modal.js
-    -   test
-        -   action.test.js
-        -   app.test.js
-        -   gridWithImage.test.js
-        -   reducer.test.js
-    -   App.css
-    -   App:js
-    -   index.css
-    -   index.js
-    -   serviceWorker.js
-    -   store.js
-    -   todo.txt
-    -   .gitiginore
-    -   .prettierignore
-    -   LIECENSE
-    -   README.md
-    -   Package-lock.json
-    -   Package.json
 
 ## Unsplash Api
 
