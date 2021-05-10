@@ -113,22 +113,22 @@ There is a button attached to the full-view image grid which when click shows ad
 I first built the app entirely with reactjs, I used hooks to manage the state. I found out that even though it works well as intended, there is a delay with the lazy loading in fetching new images.
 I then think of separation of concern by using Redux in calling to api and managing the state.To summarize it, Redux maintains the state of an entire application in a single immutable state tree (object), which can’t be changed directly. When something changes, a new object is created (using actions and reducers).
 You may be asking, “Why would I need to use Redux?” Great question. There are a few benefits of using Redux in this application such as:-
-Predictability of outcome
+## 1.Predictability of outcome
 There is always one source of truth, the store, with no confusion about how to sync the current state with actions and other parts of the application.
 Maintainability
 Having a predictable outcome and strict structure makes the code easier to maintain.
-Organization
+## 2.Organization
 Redux is stricter about how code should be organized, which makes code more consistent and easier for a team to work with.
 Server rendering
 This is very useful, especially for the initial render, making for a better user experience or search engine optimization. Just pass the store created on the server to the client side.
-Developer tools
+## 3. Developer tools
 Developers can track everything going on in the app in real time, from actions to state changes.
 Community and ecosystem
 This is a huge plus whenever you’re learning or using any library or framework. Having a community behind Redux makes it even more appealing to use.
-Ease of testing
+## 4. Ease of testing
 The first rule of writing testable code is to write small functions that do only one thing and that are independent. Redux’s code is mostly functions that are just that: small, pure and isolated.
 
-## Testing
+### Testing
 
 Four test suites were created which all passed, and it has a total of 21 tests. Jest is the principal JavaScript test library that is used to create the test cases with the help of additional packages such as Redux-Mock-Store (for testing redux async ), Fetch Mock-adapter , Fetch Mock, and axios-mock-adapter.
 
